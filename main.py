@@ -141,6 +141,6 @@ while not done:
         shape = random.choice(shapes)()
 
     pygame.display.flip()
-    clock.tick(1) # Скорость падения
+    clock.tick(2) # Скорость падения
 
 pygame.quit()
