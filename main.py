@@ -154,7 +154,7 @@ while not done:
             filled_lines = clear_rows(grid)
             # Обновление видимой части изображения
             if filled_lines > 0:
-                visible_image_height += filled_lines * line_height*10 # ДЛЯ ТЕСТИРОВАНИЯ ПОБЕДЫ
+                visible_image_height += filled_lines * line_height*1 # ДЛЯ ТЕСТИРОВАНИЯ ПОБЕДЫ ПОМЕНЯТЬ НА 20
                 if visible_image_height >= image_height:
                     # Остановка игры и отображение поздравления
                     done = True
