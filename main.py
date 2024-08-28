@@ -11,6 +11,16 @@ size = (400, 500)
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Tetris")
 
+
+# Загрузите изображение и получите его размеры
+image = pygame.image.load('zerocat.png')
+image_height = image.get_height()
+
+# Начальные параметры
+visible_image_height = 0
+line_height = 30  # Высота строки в тетрисе
+
+
 done = False
 clock = pygame.time.Clock()
 
